@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <p>
+        This site is just a placeholder. You're probably looking for{" "}
+        <a href="https://phantom.app/">Phantom!</a>
+      </p>
+      <p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://www.flaticon.com/free-icons/google-play-movie"
+          title="google play movie icons"
         >
-          Learn React
+          Google play movie icons created by Freepik - Flaticon
         </a>
-      </header>
+      </p>
     </div>
   );
 }
